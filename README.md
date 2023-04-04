@@ -5,24 +5,24 @@
  mrturcot  on GentooRig /home/mrturcot/github/gentoo-stuff on   master took 7s
 [ 05:07:34 PM ] ➜ neofetch
          -/oyddmdhs+:.                mrturcot@GentooRig 
-     -odNMMMMMMMMNNmhy+-`             ------------------ 
    -yNMMMMMMMMMMMNNNmmdhy+-           OS: Gentoo Linux x86_64 
- `omMMMMMMMMMMMMNmdmmmmddhhy/`        Host: Gigabyte Technology Co., Ltd. X470 AORUS GAMING 7 WIFI-CF 
- omMMMMMMMMMMMNhhyyyohmdddhhhdo`      Kernel: 6.1.8-gentoo-xanmod1 
-.ydMMMMMMMMMMdhs++so/smdddhhhhdm+`    Uptime: 4 hours, 20 mins 
- oyhdmNMMMMMMMNdyooydmddddhhhhyhNd.   Packages: 1319 (emerge) 
+ `omMMMMMMMMMMMMNmdmmmmddhhy/`        Host: ASUSTeK COMPUTER INC. GL552VW 
+ omMMMMMMMMMMMNhhyyyohmdddhhhdo`      Kernel: 6.2.9-gentoo-filthy 
+.ydMMMMMMMMMMdhs++so/smdddhhhhdm+`    Uptime: 23 hours, 51 mins 
+ oyhdmNMMMMMMMNdyooydmddddhhhhyhNd.   Packages: 1069 (emerge) 
   :oyhhdNNMMMMMMMNNNmmdddhhhhhyymMh   Shell: zsh 5.9 
-    .:+sydNMMMMMNNNmmmdddhhhhhhmMmy   Resolution: 3840x2160 
-       /mMMMMMMNNNmmmdddhhhhhmMNhs:   DE: GNOME 43.2 
+    .:+sydNMMMMMNNNmmmdddhhhhhhmMmy   Resolution: 1920x1080 
+       /mMMMMMMNNNmmmdddhhhhhmMNhs:   DE: GNOME 44.0 (Wayland) 
     `oNMMMMMMMNNNmmmddddhhdmMNhs+`    WM: Mutter 
   `sNMMMMMMMMNNNmmmdddddmNMmhs/.      WM Theme: Orchis-Dark 
  /NMMMMMMMMNNNNmmmdddmNMNdso:`        Theme: Orchis-Dark [GTK2/3] 
-+MMMMMMMNNNNNmmmmdmNMNdso/-           Icons: Papirus-Dark [GTK2/3] 
++MMMMMMMNNNNNmmmmdmNMNdso/-           Icons: Adwaita [GTK2/3] 
 yMMNNNNNNNmmmmmNNMmhs+/-`             Terminal: kitty 
-/hMMNNNNNNNNMNdhs++/-`                Terminal Font: source code pro 14.0 
-`/ohdmmddhys+++/:.`                   CPU: AMD Ryzen 7 2700 (16) @ 3.800GHz 
-  `-//////:--.                        GPU: AMD ATI Radeon RX 590 
-                                      Memory: 832MiB / 64242MiB
+/hMMNNNNNNNNMNdhs++/-`                Terminal Font: source-code-pro 16.0 
+`/ohdmmddhys+++/:.`                   CPU: Intel i7-6700HQ (8) @ 3.500GHz 
+  `-//////:--.                        GPU: Intel HD Graphics 530 
+                                      GPU: NVIDIA GeForce GTX 960M 
+                                      Memory: 4391MiB / 15418MiB
 ```
    
 
