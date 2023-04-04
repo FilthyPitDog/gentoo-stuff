@@ -59,7 +59,7 @@ Every package currently set in portage/package.env is confirmed working with the
 Clang Kernels (gentoo-sources & xanmod-sources w/ gentoo patchset)
 ```
 ➜ cat /proc/version                
-Linux version 6.1.8-gentoo-xanmod1 (root@GentooRig) (clang version 15.0.7, LLD 15.0.7) #1 SMP PREEMPT Wed Feb  1 22:37:22 PST 2023
+Linux version 6.2.9-gentoo-filthy (root@gl55vw) (clang version 16.0.0, LLD 16.0.0) #1 SMP Sun Apr  2 18:19:38 PDT 2023
 ```   
 
  - **Use Case**
