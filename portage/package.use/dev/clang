@@ -1,1 +1,5 @@
-sys-devel/clang-common hardened
+sys-devel/clang-common default-compiler-rt default-lld hardened
+sys-libs/compiler-rt clang
+sys-libs/compiler-rt-sanitizers clang
+sys-libs/libcxx -clang
+sys-libs/libcxxabi -clang

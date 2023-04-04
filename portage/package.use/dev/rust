@@ -1,1 +1,1 @@
-dev-lang/rust system-llvm llvm-libunwind parallel-compiler nightly
+dev-lang/rust system-llvm nightly parallel-compiler abi_x86_32

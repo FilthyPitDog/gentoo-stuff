@@ -1,13 +1,9 @@
 ### System
 ## This is disabled for now: Using profile default
-#*/* PYTHON_TARGETS: python3_11
-#*/* PYTHON_SINGLE_TARGET: -* python3_11
+*/* PYTHON_TARGETS: python3_11
+*/* PYTHON_SINGLE_TARGET: -* python3_11
 
 ## Per-Package
-app-editors/vim PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
-dev-libs/boost PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
-media-video/mpv PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
-net-libs/libtorrent-rasterbar PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
-sys-devel/clang PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
-x11-terms/kitty PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
-media-video/obs-studio PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
+# app-editors/vim PYTHON_TARGETS: -* python3_10 PYTHON_SINGLE_TARGET: -* python3_10
+# x11-terms/kitty PYTHON_TARGETS: -* python3_10 PYTHON_SINGLE_TARGET: -* python3_10
+# net-wireless/bluez PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11
