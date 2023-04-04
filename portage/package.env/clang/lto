@@ -7,8 +7,8 @@ sys-devel/clang clang/lto
 sys-devel/lld clang/lto
 sys-devel/llvm clang/lto
 sys-libs/rt-sanitizers clang/lto
-sys-libs/libcxx clang/lto
-sys-libs/libcxxabi clang/lto
+# sys-libs/libcxx clang/lto
+# sys-libs/libcxxabi clang/lto
 
 ## Clang: Advanced Setup (https://wiki.gentoo.org/wiki/Clang#Advanced_examples)
 # clang/lto: build with Clang-LTO environment
