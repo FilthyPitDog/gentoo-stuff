@@ -27,7 +27,7 @@ yMMNNNNNNNmmmmmNNMmhs+/-`             Terminal: kitty
    
 
 
-  - My in sync Portage directory & Kernel for a Stable Gentoo x86-64 EFI, Ryzen ZenVer1, AMDGPU, OpenRC, Gnome-*Light*, X11, Pipewire based system configuration. With optimizations for speed and gaming performance in mind...  
+  - My in sync Portage directory & Kernel for ~amd64 (testing / unstable) Gentoo x86-64 EFI, OpenRC, Gnome-*Light*, Wayland, Pipewire based system configuration. With optimizations for speed and gaming performance in mind...  
 
   - /etc/portage files included in this repo, could serve as drop-in replacements for others with similar hardware setups. It should also be noted, the PER-Package build environments are portable and modular, they should work with most Gentoo based systems with LLVM/Clang installed, (upon setting a few values mentioned below)   
 
@@ -85,9 +85,7 @@ Then before >> **Updating the @world set** (https://wiki.gentoo.org/wiki/Handboo
    
 - **Untested**  
 
-Furthermore, I do provide my own kernel and .config for current "6.1-gentoo-sources". This is for AMD Ryzen znver1 & AMDGPU Arctic Islands - POLARIS10/11/12 setup with support for NVMe-SDD and SATA-HDD (ext4, fat & ntfs) with Network etc... (all this stuff here works https://www.gigabyte.com/Motherboard/X470-AORUS-GAMING-7-WIFI-rev-10/sp#sp).  
-
-Running "make menuconfig [https://wiki.gentoo.org/wiki/Kernel/Configuration#Configuration]" in your activily set gentoo kernel sources in "/usr/src/linux" would be very strongly recommened making your own kernel from the kernel.config provided, as other hardware specifications that differ from this would most definitely need to be set for your setup... This is *Untested*...      
+Furthermore, I do provide my own kernel and .config for current "6.2-gentoo-sources". Running "make menuconfig [https://wiki.gentoo.org/wiki/Kernel/Configuration#Configuration]" in your activily set gentoo kernel sources in "/usr/src/linux" would be very strongly recommened making your own kernel from the kernel.config provided, as other hardware specifications that differ from this would most definitely need to be set for your setup... This is *Untested*...      
    
 
 **Notice**
