@@ -4,3 +4,7 @@
 >=app-arch/unrar-6.1.7 unRAR
 >=net-analyzer/nmap-7.92-r2 NPSL-0.94
 >=net-misc/megasync-9999::4nykey EULA
+>=media-libs/libva-intel-media-driver-23.1.2 no-source-code
+>=media-fonts/symbola-13.00 UFAS
+>=app-arch/rar-6.21 RAR
+>=games-emulation/ppsspp-libretro-1.14.4-r2 JSON
