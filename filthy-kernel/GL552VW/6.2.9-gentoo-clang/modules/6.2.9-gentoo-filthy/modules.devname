@@ -1,0 +1,4 @@
+# Device nodes to trigger on-demand module loading.
+uhid uhid c10:239
+vfio vfio/vfio c10:196
+hci_vhci vhci c10:137
