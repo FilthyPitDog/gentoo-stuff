@@ -1,3 +1,0 @@
-# Soft dependencies extracted from modules themselves.
-softdep r8169 pre: realtek
-softdep vfio post: vfio_iommu_type1 vfio_iommu_spapr_tce
