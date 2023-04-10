@@ -4,25 +4,26 @@
 ```
  mrturcot  on GentooRig /home/mrturcot/github/gentoo-stuff on   master took 7s
 [ 05:07:34 PM ] ➜ neofetch
-         -/oyddmdhs+:.                mrturcot@GentooRig 
+         -/oyddmdhs+:.                mrturcot@gl55vw 
+     -odNMMMMMMMMNNmhy+-`             --------------- 
    -yNMMMMMMMMMMMNNNmmdhy+-           OS: Gentoo Linux x86_64 
  `omMMMMMMMMMMMMNmdmmmmddhhy/`        Host: ASUSTeK COMPUTER INC. GL552VW 
- omMMMMMMMMMMMNhhyyyohmdddhhhdo`      Kernel: 6.2.9-gentoo-filthy 
-.ydMMMMMMMMMMdhs++so/smdddhhhhdm+`    Uptime: 23 hours, 51 mins 
- oyhdmNMMMMMMMNdyooydmddddhhhhyhNd.   Packages: 1069 (emerge) 
+ omMMMMMMMMMMMNhhyyyohmdddhhhdo`      Kernel: 6.2.10-gentoo-filthy 
+.ydMMMMMMMMMMdhs++so/smdddhhhhdm+`    Uptime: 4 hours, 20 mins 
+ oyhdmNMMMMMMMNdyooydmddddhhhhyhNd.   Packages: 1085 (emerge) 
   :oyhhdNNMMMMMMMNNNmmdddhhhhhyymMh   Shell: zsh 5.9 
     .:+sydNMMMMMNNNmmmdddhhhhhhmMmy   Resolution: 1920x1080 
-       /mMMMMMMNNNmmmdddhhhhhmMNhs:   DE: GNOME 44.0 (Wayland) 
+       /mMMMMMMNNNmmmdddhhhhhmMNhs:   DE: GNOME 44.0 
     `oNMMMMMMMNNNmmmddddhhdmMNhs+`    WM: Mutter 
   `sNMMMMMMMMNNNmmmdddddmNMmhs/.      WM Theme: Orchis-Dark 
  /NMMMMMMMMNNNNmmmdddmNMNdso:`        Theme: Orchis-Dark [GTK2/3] 
-+MMMMMMMNNNNNmmmmdmNMNdso/-           Icons: Adwaita [GTK2/3] 
++MMMMMMMNNNNNmmmmdmNMNdso/-           Icons: Papirus-Dark [GTK2/3] 
 yMMNNNNNNNmmmmmNNMmhs+/-`             Terminal: kitty 
 /hMMNNNNNNNNMNdhs++/-`                Terminal Font: source-code-pro 16.0 
 `/ohdmmddhys+++/:.`                   CPU: Intel i7-6700HQ (8) @ 3.500GHz 
   `-//////:--.                        GPU: Intel HD Graphics 530 
                                       GPU: NVIDIA GeForce GTX 960M 
-                                      Memory: 4391MiB / 15418MiB
+                                      Memory: 69MiB / 15425MiB
 ```
    
 
@@ -56,10 +57,10 @@ Every package currently set in portage/package.env is confirmed working with the
  and more... see portage/make.conf "USE=$(Flags)"  
 ```  
 
-Clang Kernels (gentoo-sources & xanmod-sources w/ gentoo patchset)
+Hardened Experimental GCC13 Kernel (gentoo-sources)
 ```
-➜ cat /proc/version                
-Linux version 6.2.9-gentoo-filthy (root@gl55vw) (clang version 16.0.0, LLD 16.0.0) #1 SMP Sun Apr  2 18:19:38 PDT 2023
+➜ cat /proc/version
+Linux version 6.2.10-gentoo-filthy (root@gl55vw) (gcc (Gentoo Hardened 13.0.1_pre20230402-r1 p9) 13.0.1 20230402 (experimental), GNU ld (Gentoo 2.40 p4) 2.40.0) #1 SMP Fri Apr  7 04:32:57 PDT 2023
 ```   
 
  - **Use Case**
