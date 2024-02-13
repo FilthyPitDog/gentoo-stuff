@@ -2,28 +2,36 @@
    
    
 ```
- mrturcot  on GentooRig /home/mrturcot/github/gentoo-stuff on   master took 7s
-[ 05:07:34 PM ] ➜ neofetch
-         -/oyddmdhs+:.                mrturcot@gl55vw 
-     -odNMMMMMMMMNNmhy+-`             --------------- 
-   -yNMMMMMMMMMMMNNNmmdhy+-           OS: Gentoo Linux x86_64 
- `omMMMMMMMMMMMMNmdmmmmddhhy/`        Host: ASUSTeK COMPUTER INC. GL552VW 
- omMMMMMMMMMMMNhhyyyohmdddhhhdo`      Kernel: 6.2.10-gentoo-filthy 
-.ydMMMMMMMMMMdhs++so/smdddhhhhdm+`    Uptime: 4 hours, 20 mins 
- oyhdmNMMMMMMMNdyooydmddddhhhhyhNd.   Packages: 1085 (emerge) 
-  :oyhhdNNMMMMMMMNNNmmdddhhhhhyymMh   Shell: zsh 5.9 
-    .:+sydNMMMMMNNNmmmdddhhhhhhmMmy   Resolution: 1920x1080 
-       /mMMMMMMNNNmmmdddhhhhhmMNhs:   DE: GNOME 44.0 
-    `oNMMMMMMMNNNmmmddddhhdmMNhs+`    WM: Mutter 
-  `sNMMMMMMMMNNNmmmdddddmNMmhs/.      WM Theme: Orchis-Dark 
- /NMMMMMMMMNNNNmmmdddmNMNdso:`        Theme: Orchis-Dark [GTK2/3] 
-+MMMMMMMNNNNNmmmmdmNMNdso/-           Icons: Papirus-Dark [GTK2/3] 
-yMMNNNNNNNmmmmmNNMmhs+/-`             Terminal: kitty 
-/hMMNNNNNNNNMNdhs++/-`                Terminal Font: source-code-pro 16.0 
-`/ohdmmddhys+++/:.`                   CPU: Intel i7-6700HQ (8) @ 3.500GHz 
-  `-//////:--.                        GPU: Intel HD Graphics 530 
-                                      GPU: NVIDIA GeForce GTX 960M 
-                                      Memory: 69MiB / 15425MiB
+ mrturcot  on gentoorig /home/mrturcot 
+[ 12:28:55 AM ] ➜ fastfetch
+         -/oyddmdhs+:.                 mrturcot@gentoorig
+     -odNMMMMMMMMNNmhy+-`              ------------------
+   -yNMMMMMMMMMMMNNNmmdhy+-            OS: Gentoo 2.14 x86_64
+ `omMMMMMMMMMMMMNmdmmmmddhhy/`         Kernel: 6.7.4-filthy-xanmod1
+ omMMMMMMMMMMMNhhyyyohmdddhhhdo`       Uptime: 23 hours, 4 mins
+.ydMMMMMMMMMMdhs++so/smdddhhhhdm+`     Packages: 1111 (emerge)
+ oyhdmNMMMMMMMNdyooydmddddhhhhyhNd.    Shell: zsh 5.9
+  :oyhhdNNMMMMMMMNNNmmdddhhhhhyymMh    Display (MSI4CB0): 2560x1440 @ 170Hz
+    .:+sydNMMMMMNNNmmmdddhhhhhhmMmy    DE: Gnome 45.2
+       /mMMMMMMNNNmmmdddhhhhhmMNhs:    WM: Mutter (Wayland)
+    `oNMMMMMMMNNNmmmddddhhdmMNhs+`     WM Theme: Orchis-Dark
+  `sNMMMMMMMMNNNmmmdddddmNMmhs/.       Theme: Orchis-Dark [GTK2/3/4]
+ /NMMMMMMMMNNNNmmmdddmNMNdso:`         Icons: Papirus-Dark [GTK2/3/4]
++MMMMMMMNNNNNmmmmdmNMNdso/-            Font: Cantarell (11pt) [GTK2/3/4]
+yMMNNNNNNNmmmmmNNMmhs+/-`              Cursor: neonly (24px)
+/hMMNNNNNNNNMNdhs++/-`                 Terminal: kitty 0.32.2
+`/ohdmmddhys+++/:.`                    Terminal Font: SourceCodePro-Regular (16pt)
+  `-//////:--.                         CPU: AMD Ryzen 9 7900X3D (24) @ 5.66 GHz
+                                       GPU 1: AMD Radeon RX 7900 XTX
+                                       GPU 2: AMD Raphael
+                                       Memory: 23.87 GiB / 62.01 GiB (38%)
+                                       Swap: 0 B / 64.00 GiB (0%)
+                                       Disk (/): 220.60 GiB / 1.76 TiB (12%) - btrfs
+                                       Disk (/mnt/Games): 1.64 TiB / 3.64 TiB (45%) - fuseblk
+                                       Disk (/mnt/Music): 3.63 TiB / 7.28 TiB (50%) - fuseblk
+                                       Disk (/mnt/Shows): 2.41 TiB / 3.64 TiB (66%) - fuseblk
+                                       Local IP (wlp13s0): 192.168.1.74/24 *
+                                       Locale: en_US.utf8
 ```
    
 
@@ -57,10 +65,10 @@ Every package currently set in portage/package.env is confirmed working with the
  and more... see portage/make.conf "USE=$(Flags)"  
 ```  
 
-Hardened Experimental GCC13 Kernel (gentoo-sources)
+Hardened Experimental clang Kernel configs
 ```
-➜ cat /proc/version
-Linux version 6.2.10-gentoo-filthy (root@gl55vw) (gcc (Gentoo Hardened 13.0.1_pre20230402-r1 p9) 13.0.1 20230402 (experimental), GNU ld (Gentoo 2.40 p4) 2.40.0) #1 SMP Fri Apr  7 04:32:57 PDT 2023
+➜ cat /proc/version    
+Linux version 6.7.4-filthy-xanmod1 (root@gentoorig) (clang version 17.0.6, LLD 17.0.6) #4 SMP PREEMPT_DYNAMIC Mon Feb 12 01:48:53 PST 2024
 ```   
 
  - **Use Case**
