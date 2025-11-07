@@ -1,0 +1,10 @@
+#>=games-emulation/dolphin-9999 **
+>=games-emulation/pcsx2-9999 **
+>=games-emulation/pcsx2_patches-9999 **
+>=net-p2p/qbittorrent-9999 **
+>=x11-themes/orchis-theme-9999 **
+>=media-video/mpv-9999 **
+>=media-libs/libplacebo-9999 **
+#>=gui-wm/labwc-9999 **
+>=dev-libs/pugixml-9999 **
+>=games-engines/openmw-9999 **

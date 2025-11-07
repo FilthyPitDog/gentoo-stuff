@@ -1,1 +1,0 @@
-RUSTFLAGS="-C opt-level=2 -C linker=clang -C target-cpu=skylake -C linker-plugin-lto -C link-arg=-fuse-ld=lld"

@@ -8,19 +8,14 @@
 # **  USE, CONFIG_*, and FEATURES are incremental  **
 # ***************************************************
 
-# These warnings indicate likely runtime problems with LTO, so promote them
-# to errors. If a package fails to build with these, LTO should not be used there.
-WARNING_FLAGS="-Werror=odr -Werror=lto-type-mismatch -Werror=strict-aliasing"
-
 # When compiler flags are unset, many packages will substitute their own
 # implicit flags. For uniformity, use an empty string as the default.
-COMMON_FLAGS="-march=native -O2 -pipe -flto ${WARNING_FLAGS}"
+COMMON_FLAGS="-march=znver4 -O2 -pipe"
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
 LDFLAGS=""
 FCFLAGS="${COMMON_FLAGS}"
 FFLAGS="${COMMON_FLAGS}"
-
 # enable target-cpu=native and DT_RELR
 RUSTFLAGS="-C target-cpu=native -C link-arg=-Wl,-z,pack-relative-relocs -C opt-level=3"
 
@@ -29,12 +24,12 @@ MAKEOPTS="-j22"
 
 # USE="Flags"
 USE="unicode X gtk gtk2 gtk3 gtk4 gdm qt5 qt6 vulkan vaapi vdpau
-     clang lto graphite pgo vim-syntax samba dbus fuse wayland 
-     bluetooth alsa pulseaudio pipewire x265 dri drm wavpack lame flac 
-     lz4 lzo lzma zstd lm-sensors hardened gnome dist-kernel elogind 
-     hwaccel openh264 llvm
+     clang lto graphite pgo vim-syntax samba dbus fuse wayland
+     bluetooth alsa pulseaudio pipewire x265 dri drm wavpack lame flac
+     lz4 lzo lzma zstd lm-sensors hardened gnome dist-kernel elogind
+     hwaccel openh264
 
-     -systemd -radeon -a52 -cups -smartcard -css -telepathy -kde -gnome-online-accounts 
+     -systemd -radeon -cups -smartcard -css -a52 -telepathy -kde -gnome-online-accounts
      -telemetry"
 
 # User options
@@ -45,6 +40,7 @@ ACCEPT_LICENSE="*"
 
 # Default distfiles mirrors. This rotation has multiple hosts and is reliable.
 # Approved by the mirror-admin team.
+GENTOO_MIRRORS="https://mirror.csclub.uwaterloo.ca/gentoo-distfiles/"
 
 # Miscellaneous paths
 # NOTE: This stage was built with the bindist Use flag enabled
@@ -80,7 +76,7 @@ PORTAGE_ELOG_CLASSES="warn error info log"
 PORTAGE_ELOG_SYSTEM="save_summary:log,warn,error,qa echo"
 
 # Set default localization assignment
-L10N="en en-US"
+L10N="en"
 
 # https://wiki.gentoo.org/wiki/Portage_niceness
 # The priority value (PR) of a process ranges from 0 to 139, giving high to low priority respectively
@@ -92,6 +88,7 @@ GRUB_PLATFORMS="efi-64 pc qemu"
 INPUT_DEVICES="joystick libinput"
 QEMU_SOFTMMU_TARGETS="aarch64 arm i386 x86_64"
 QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
+VIDEO_CARDS="amdgpu radeonsi virgl"
 
 # ***************************************************
 # ** Incremental Variables Accumulate Across Files **
@@ -103,5 +100,3 @@ QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
 # This sets the language of build output to English.
 # Please keep this setting intact when reporting bugs.
 LC_MESSAGES=C.utf8
-
-GENTOO_MIRRORS="http://gentoo.mirrors.ovh.net/gentoo-distfiles/"

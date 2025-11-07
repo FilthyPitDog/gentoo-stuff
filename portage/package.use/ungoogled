@@ -1,0 +1,1 @@
+www-client/ungoogled-chromium optimize-thinlto optimize-webui -system-openjpeg thinlto screencast -qt5 libcxx -system-harfbuzz -system-icu -system-libusb -system-openh264 -system-png -system-zstd cfi

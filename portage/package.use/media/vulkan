@@ -1,4 +1,0 @@
-media-libs/vulkan-layers abi_x86_32
-media-libs/vulkan-loader abi_x86_32 layers
-dev-util/vulkan-tools abi_x86_32 cube
-

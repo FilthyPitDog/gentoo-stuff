@@ -1,0 +1,1 @@
+*/* VIDEO_CARDS: amdgpu -fbdev -intel -nouveau -radeon radeonsi -vesa -dummy virgl

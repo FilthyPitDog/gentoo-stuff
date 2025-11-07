@@ -1,9 +1,0 @@
-### System
-## This is disabled for now: Using profile default
-*/* PYTHON_TARGETS: python3_11
-*/* PYTHON_SINGLE_TARGET: -* python3_11
-
-## Per-Package
-# app-editors/vim PYTHON_TARGETS: -* python3_10 PYTHON_SINGLE_TARGET: -* python3_10
-# x11-terms/kitty PYTHON_TARGETS: -* python3_10 PYTHON_SINGLE_TARGET: -* python3_10
-# net-wireless/bluez PYTHON_TARGETS: -* python3_11 PYTHON_SINGLE_TARGET: -* python3_11

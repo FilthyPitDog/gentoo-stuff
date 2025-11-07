@@ -1,1 +1,0 @@
-media-video/ffmpeg -chromaprint openal nvenc libplacebo libass vaapi x265 fdk bluray libdrm cpudetection openh264 chromium gme libaom lzma openssl ssh vpx webp
