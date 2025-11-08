@@ -26,7 +26,7 @@ alias emerge-modules="emerge @module-rebuild"
 # The Rest
 alias grub-install="grub-install --target=x86_64-efi --efi-directory=/boot"
 alias grub-update="grub-mkconfig -o /boot/grub/grub.cfg"
-alias l="exa -l -a -bhg --color=always --color-scale --group-directories-first --time-style=long-iso --git --extended"
+alias l="eza -l -a -bhg --color=always --color-scale --group-directories-first --time-style=long-iso --git --extended"
 alias b="bat -p"
 alias c="clear"
 alias e="exit"
